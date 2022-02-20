@@ -13,7 +13,7 @@
 2. [Manual data-flow coverage calculations for X and Y methods](#Manual-data-flow-coverage-calculations-for-X-and-Y-methods)
 3. [A detailed description of the testing strategy for the new unit test](#A-detailed-description-of-the-testing-strategy-for-the-new-unit-test)
 4. [A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage](#A-high-level-description-of-five-selected-test-cases-you-have-designed-using-coverage-information-and-how-they-have-increased-code-coverage)
-5. [A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)](#A-detailed-report-of-the-coverage-achieved-of-each-class-and-method-(a-screen-shot-from-the-code-cover-results-in-green-and-red-color-would-suffice))
+5. [A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)](#A-detailed-report-of-the-coverage-achieved-of-each-class-and-method-a-screen-shot-from-the-code-cover-results-in-green-and-red-color-would-suffice)
 6. [Pros and Cons of coverage tools used and Metrics you report](#Pros-and-Cons-of-coverage-tools-used-and-Metrics-you-report)
 7. [A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.](#A-comparison-on-the-advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation.)
 8. [A discussion on how the team work/effort was divided and managed](#A-discussion-on-how-the-team-work/effort-was-divided-and-managed)
