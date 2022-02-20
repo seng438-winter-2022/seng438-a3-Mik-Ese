@@ -9,13 +9,22 @@
 | Faisal | Hossain |
 | Cheyenne | Goh |
 
-(Note that some labs require individual reports while others require one report
-for each group. Please see each lab document for details.)
+1. [Introduction](#Introduction)
+2. [Manual data-flow coverage calculations for X and Y methods](#Manual-data-flow-coverage-calculations-for-X-and-Y-methods)
+3. [A detailed description of the testing strategy for the new unit test](#A-detailed-description-of-the-testing-strategy-for-the-new-unit-test)
+4. [A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage](#A-high-level-description-of-five-selected-test-cases-you-have-designed-using-coverage-information-and-how-they-have-increased-code-coverage)
+5. [A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)](#A-detailed-report-of-the-coverage-achieved-of-each-class-and-method-(a-screen-shot-from-the-code-cover-results-in-green-and-red-color-would-suffice))
+6. [Pros and Cons of coverage tools used and Metrics you report](#Pros-and-Cons-of-coverage-tools-used-and-Metrics-you-report)
+7. [A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.](#A-comparison-on-the-advantages-and-disadvantages-of-requirements-based-test-generation-and-coverage-based-test-generation.)
+8. [A discussion on how the team work/effort was divided and managed](#A-discussion-on-how-the-team-work/effort-was-divided-and-managed)
+9. [Any difficulties encountered, challenges overcome, and lessons learned from performing the lab](#Any-difficulties-encountered-challenges-overcome-and-lessons-learned-from-performing-the-lab)
+10. [Comments/feedback on the lab itself](#Comments/feedback-on-the-lab-itself)
 
-# 1 Introduction
+
+# Introduction
 This lab was used to teach students about unit testing designed using white-box testing. Additionally it familiarized the students with Eclipse IDE, for Java development and its EclEmma coverage tool. Before the lab we were aware of the utilization of JUnit 4 to perform unit tests and were familiar with black-box testing. Over the course of the lab, we gained experience with the EclEmma add-on and the inspection of the data-flow for our unit tests. With this we tested certain classes within the JFreeChart library.
 
-# 2 Manual data-flow coverage calculations for X and Y methods
+# Manual data-flow coverage calculations for X and Y methods
 ![Data Flow Graph 1](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/DataGraphs/SENG438%20DFGs-calculateColumnTotal.jpg)
 
 ![Data Flow Graph 2](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/DataGraphs/SENG438%20DFGs-upperBound.jpg)
@@ -83,33 +92,33 @@ upperBound: coverage = 1 / 1 * 100% = 100%
 calculateColumnTotal - if all columns are filled: coverage = 8/8 * 100% = 100%
 ```
 
-# 3 A detailed description of the testing strategy for the new unit test
+# A detailed description of the testing strategy for the new unit test
 The Unit tests were devised according to the principles of white-box testing.
 
-# 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
+# A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
 Text…
 
-# 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
+# A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 Text…
 
-# 6 Pros and Cons of coverage tools used and Metrics you report
+# Pros and Cons of coverage tools used and Metrics you report
 
 Text…
 
-# 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
+# A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
 Text…
 
-# 8 A discussion on how the team work/effort was divided and managed
+# A discussion on how the team work/effort was divided and managed
 
 Text…
 
-# 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
+# Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
 Text…
 
-# 10 Comments/feedback on the lab itself
+# Comments/feedback on the lab itself
 
 Text…
