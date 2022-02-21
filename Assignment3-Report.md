@@ -22,7 +22,7 @@
 
 
 # Introduction
-This lab was used to teach students about unit testing designed using white-box testing. Additionally it familiarized the students with Eclipse IDE, for Java development and its EclEmma coverage tool. Before the lab we were aware of the utilization of JUnit 4 to perform unit tests and were familiar with black-box testing. Over the course of the lab, we gained experience with the EclEmma add-on and the inspection of the data-flow for our unit tests. With this we tested certain classes within the JFreeChart library.
+This lab was used to teach students about unit testing designed using white-box testing. Additionally it familiarized the students with Eclipse IDE, for Java development and its EclEmma coverage tool. Before the lab we were aware of the utilization of JUnit 4 to perform unit tests and were familiar with black-box testing. Over the course of the lab, we gained experience with the EclEmma add-on and the inspection of the data-flow for our unit tests. With this we tested certain classes within the JFreeChart library. We used this [test plan](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/SENG%20438%20A3%20Test%20Plan.pdf) to develop unit tests.
 
 # Manual data-flow coverage calculations for X and Y methods
 ![Data Flow Graph 1](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/DataGraphs/SENG438%20DFGs-calculateColumnTotal.jpg)
@@ -143,34 +143,16 @@ and the implied `else` statement
 - Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
 
 # A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
-[Exported results]
+
 Text…
 
 # Pros and Cons of coverage tools used and Metrics you report
-Tool Used: EclEmma addon for Eclipse IDE
-### Pros:
-- The tool embedded with the IDE used (Eclipse) no additional 3rd party software needed
-- varity of coverage metrics (Instructions, Branches, Lines, Methods, and Complexity coverage)
-- Color Coding illustrating the specific parts of the method completely, partially or not at all covered in the test cases 
-### Cons:
-- In the case of multiple conditions in a single if/else statement, the branch covered and the one not covered are not distinguished.
+
+Text…
+
 # A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-### advantages of requirements-based test generation:
-- simplicity of test creation based on requirements boundaries
-- promotes a more creative approach to testing the methods
-- Do not need to explore the intricacies of the source code to develop tests
-### disadvantages of requirements-based test generation:
-- limits tests to superficial understanding of the requirements of a method
-- lack of confirmation in regards to the extensiveness of the tests
-
-### advantages of coverage-based test generation:
-- extensiveness of error checking
-- more targeted unit tests
-### disadvantages of coverage-based test generation:
-- requires deep understanding of the source code being tested
-- Achieveing full coverage, does not guarantee the fulfillment of all technical requirements
-- time commitment required to achieve full coverage on larger projects
+Text…
 
 # A discussion on how the team work/effort was divided and managed
 
