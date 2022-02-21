@@ -143,16 +143,34 @@ and the implied `else` statement
 - Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
 
 # A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
-
+[Exported results]
 Text…
 
 # Pros and Cons of coverage tools used and Metrics you report
-
-Text…
-
+Tool Used: EclEmma addon for Eclipse IDE
+### Pros:
+- The tool embedded with the IDE used (Eclipse) no additional 3rd party software needed
+- varity of coverage metrics (Instructions, Branches, Lines, Methods, and Complexity coverage)
+- Color Coding illustrating the specific parts of the method completely, partially or not at all covered in the test cases 
+### Cons:
+- In the case of multiple conditions in a single if/else statement, the branch covered and the one not covered are not distinguished.
 # A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+### advantages of requirements-based test generation:
+- simplicity of test creation based on requirements boundaries
+- promotes a more creative approach to testing the methods
+- Do not need to explore the intricacies of the source code to develop tests
+### disadvantages of requirements-based test generation:
+- limits tests to superficial understanding of the requirements of a method
+- lack of confirmation in regards to the extensiveness of the tests
+
+### advantages of coverage-based test generation:
+- extensiveness of error checking
+- more targeted unit tests
+### disadvantages of coverage-based test generation:
+- requires deep understanding of the source code being tested
+- Achieveing full coverage, does not guarantee the fulfillment of all technical requirements
+- time commitment required to achieve full coverage on larger projects
 
 # A discussion on how the team work/effort was divided and managed
 
