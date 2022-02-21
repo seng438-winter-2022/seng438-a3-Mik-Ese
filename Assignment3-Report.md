@@ -97,7 +97,6 @@ The Unit tests were devised according to the principles of white-box testing.
 We developed unit tests while viewing the source code for the method we were testing. After which we used EclEmma to view the Instruction, Branches, and Methods Coverage, and reviewed the source code and its tests, we continued this cycle until we were satisfied with the coverage achieved (ideally greater than 95%).
 
 # A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
-
 `Range` - `combineIgnoringNaN(Range, Range)`
 - We started by writing test cases that explored each outcome of the three outer if statements:\
 `if (range1 == null)`\
@@ -141,6 +140,8 @@ and the implied `else` statement
 - The step above was repeated for the further nested if statement:\
 `if (n != null)`
 - Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
+
+The files containing all of the test cases can be found [here](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/ProjectArchive.zip). The individual test cases for the [Range](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/Test%20Files/RangeTest.java) and [DataUtilities](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/Test%20Files/DataUtilitiesTest.java) classes are also available.
 
 # A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
