@@ -144,8 +144,7 @@ and the implied `else` statement
 The files containing all of the test cases can be found [here](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/ProjectArchive.zip). The individual test cases for the [Range](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/Test%20Files/RangeTest.java) and [DataUtilities](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/Test%20Files/DataUtilitiesTest.java) classes are also available.
 
 # A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
-
-Text…
+The exported files for the coverage report for our unit test cases can be found [here](https://github.com/seng438-winter-2022/seng438-a3-Mik-Ese/blob/main/Coverage_Report.zip). 
 
 # Pros and Cons of coverage tools used and Metrics you report
 
