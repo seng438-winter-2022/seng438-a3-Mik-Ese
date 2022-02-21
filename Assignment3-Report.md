@@ -94,10 +94,53 @@ calculateColumnTotal - if all columns are filled: coverage = 8/8 * 100% = 100%
 
 # A detailed description of the testing strategy for the new unit test
 The Unit tests were devised according to the principles of white-box testing.
+We developed unit tests while viewing the source code for the method we were testing. After which we used EclEmma to view the Instruction, Branches, and Methods Coverage, and reviewed the source code and its tests, we continued this cycle until we were satisfied with the coverage achieved (ideally greater than 95%).
 
 # A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-Text…
+`Range` - `combineIgnoringNaN(Range, Range)`
+- We started by writing test cases that explored each outcome of the three outer if statements:\
+`if (range1 == null)`\
+`if (range2 == null)`\
+`if (Double.isNaN(l) && Double.isNaN(u))`
+- We then explored the following nested if statements and added unit tests that considered the alternative branch.\
+`if (range2 != null && range2.isNaNRange())`\
+`if (range1.isNaNRange())`
+- Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
+
+`Range` - `expand(Range, double, double)`
+- We started by writing test cases that explored each outcome of the paramChecks and if statement:\
+`ParamChecks.nullNotPermitted(range, "range")`\
+`if (lower > upper)`
+- We then checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
+
+`Range` - `constrain(double)`
+- We started by writing test cases that explored each outcome of the outer if statement:\
+`if (!contains(value))`
+- We then explored the following nested if statements and added unit tests that considered the alternative branch.\
+`if (value > this.upper)`\
+`else if (value < this.lower)`\
+and the implied `else` statement
+- Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
+
+`DataUtilities` - `getCumulativePercentages(KeyedValues)`
+- We started by writing test cases that explored each outcome of the paramChecks and the `for` loops following:\
+`ParamChecks.nullNotPermitted(data, "data")`\
+`for (int i = 0; i < data.getItemCount(); i++)` (twice)
+
+- We then explored the following nested if statements and added unit tests that considered the alternative branch.\
+`if (v != null)` (twice)
+- Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
+
+`DataUtilities` - `calculateRowTotal(Values2D, int, int[])`
+- We started by writing test cases that explored each outcome of the paramChecks and the `for` loop following:\
+`ParamChecks.nullNotPermitted(data, "data")`\
+`for (int v = 0; v < validCols.length; v++)`
+- We then explored the following nested if statements and added unit tests that considered the alternative branch.\
+`if (col < colCount)`
+- The step above was repeated for the further nested if statement:\
+`if (n != null)`
+- Finally we checked the coverage with EclEmma and made sure that the coverage metrics were up to our standards
 
 # A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
