@@ -155,13 +155,24 @@ Text…
 Text…
 
 # A discussion on how the team work/effort was divided and managed
+Everyone worked together to write up the Test Plan and decide the pairs.
 
-Text…
+The tests were developed in 2 pairs:
+- Michele Esercitato and Dylan Mah 
+- Faisal Hossain and Cheyenne Goh
+
+The first pair covered the test cases for the `Range` class and the second pair the `DataUtilities` class. After which, the pairs switched their target classes and reviewed the test cases built.
 
 # Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
+### Difficulties Encountered
+- Developing unit tests to get higher code coverage metrics
 
-Text…
+### Challenges Overcome
+- Understanding the source code to better develop unit tests 
+
+### Lessons Learned
+- How to use EclEmma
+- How to create JUnit tests to effectively explore all possible paths of a program
 
 # Comments/feedback on the lab itself
-
-Text…
+Interesting lab to learn how to use code coverage tools and more testing techniques
