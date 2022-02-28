@@ -89,7 +89,7 @@ calculateColumnTotalMixedDec: du(1, 1, data), du(1, 5, column), du(1, 6, total),
 ```
 upperBound: coverage = 1 / 1 * 100% = 100%
 
-calculateColumnTotal - if all columns are filled: coverage = 8/8 * 100% = 100%
+calculateColumnTotal: coverage = 6/6 * 100% = 100%
 ```
 
 # A detailed description of the testing strategy for the new unit test
